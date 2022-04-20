@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "8e062973-01d2-46fc-a758-dda1b3a0ca56": {
+      "ProjectGuid": "8e062973-01d2-46fc-a758-dda1b3a0ca56",
+      "DisplayName": "IdentityServerApp",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
