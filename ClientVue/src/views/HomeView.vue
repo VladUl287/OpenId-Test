@@ -15,11 +15,12 @@ export default {
       mgr.login();
     };
 
-    const logout = () => {};
+    const logout = () => {
+      mgr.logout();
+    };
 
     const api = () => {
       mgr.getAccessToken().then((userToken) => {
-        console.log(userToken);
         let url = "https://localhost:6001/api/identity";
         var xhr = new XMLHttpRequest();
         xhr.open("GET", url);

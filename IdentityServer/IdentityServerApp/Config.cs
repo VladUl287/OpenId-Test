@@ -27,26 +27,30 @@ namespace IdentityServerApp
                 // Vue Client
                 new Client
                 {
-                    ClientId = "js",
-                    ClientName = "JavaScript Client",
-                    AllowedGrantTypes = GrantTypes.Code,
+                    ClientId = "vue",
+                    ClientSecrets =
+                    {
+                        new Secret("vue_secret")
+                    },
+
                     RequireClientSecret = false,
 
-                    AccessTokenLifetime = 330,
-                    IdentityTokenLifetime = 300,
-                    RequirePkce = true,
-                    AllowAccessTokensViaBrowser = true,
+                    AllowedGrantTypes = GrantTypes.Code,
 
-                    RedirectUris = new[]
+                    //AllowOfflineAccess = true,
+
+                    RedirectUris =
                     {
                         VUE_URI,
                         $"{VUE_URI}/callback.html",
-                        $"{VUE_URI}/silent-renew.html",
+                        $"{VUE_URI}/silent-renew.html"
                     },
-                    PostLogoutRedirectUris = {
+                    PostLogoutRedirectUris = 
+                    {
                         VUE_URI
                     },
-                    AllowedCorsOrigins = {
+                    AllowedCorsOrigins = 
+                    {
                         VUE_URI
                     },
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Temp\\asp.net - openId connect\\IdentityServerApp\\IdentityServerApp\\IdentityServerApp.csproj": {}
+    "C:\\Temp\\asp.net - openId connect\\IdentityServer\\IdentityServerApp\\IdentityServerApp.csproj": {}
   },
   "projects": {
-    "C:\\Temp\\asp.net - openId connect\\IdentityServerApp\\IdentityServerApp\\IdentityServerApp.csproj": {
+    "C:\\Temp\\asp.net - openId connect\\IdentityServer\\IdentityServerApp\\IdentityServerApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Temp\\asp.net - openId connect\\IdentityServerApp\\IdentityServerApp\\IdentityServerApp.csproj",
+        "projectUniqueName": "C:\\Temp\\asp.net - openId connect\\IdentityServer\\IdentityServerApp\\IdentityServerApp.csproj",
         "projectName": "IdentityServerApp",
-        "projectPath": "C:\\Temp\\asp.net - openId connect\\IdentityServerApp\\IdentityServerApp\\IdentityServerApp.csproj",
+        "projectPath": "C:\\Temp\\asp.net - openId connect\\IdentityServer\\IdentityServerApp\\IdentityServerApp.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Temp\\asp.net - openId connect\\IdentityServerApp\\IdentityServerApp\\obj\\",
+        "outputPath": "C:\\Temp\\asp.net - openId connect\\IdentityServer\\IdentityServerApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,6 +43,30 @@
             "IdentityServer4": {
               "target": "Package",
               "version": "[4.1.2, )"
+            },
+            "IdentityServer4.AspNetIdentity": {
+              "target": "Package",
+              "version": "[4.1.2, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
             }
           },
           "imports": [

@@ -5,6 +5,11 @@
       "ProjectGuid": "8e062973-01d2-46fc-a758-dda1b3a0ca56",
       "DisplayName": "IdentityServerApp",
       "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Прочие файлы",
+      "ColorIndex": -1
     }
   },
   "NextColorIndex": 1

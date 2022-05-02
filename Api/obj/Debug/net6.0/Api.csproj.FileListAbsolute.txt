@@ -32,7 +32,3 @@ C:\Temp\asp.net - openId connect\Api\obj\Debug\net6.0\Api.dll
 C:\Temp\asp.net - openId connect\Api\obj\Debug\net6.0\ref\Api.dll
 C:\Temp\asp.net - openId connect\Api\obj\Debug\net6.0\Api.pdb
 C:\Temp\asp.net - openId connect\Api\obj\Debug\net6.0\Api.genruntimeconfig.cache
-C:\Temp\asp.net - openId connect\Api\bin\Debug\net6.0\IdentityModel.dll
-C:\Temp\asp.net - openId connect\Api\bin\Debug\net6.0\IdentityModel.AspNetCore.OAuth2Introspection.dll
-C:\Temp\asp.net - openId connect\Api\bin\Debug\net6.0\IdentityServer4.AccessTokenValidation.dll
-C:\Temp\asp.net - openId connect\Api\bin\Debug\net6.0\Newtonsoft.Json.dll

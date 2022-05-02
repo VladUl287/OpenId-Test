@@ -9,7 +9,9 @@ export default class SecurityService {
         const config = {
             userStore: new WebStorageStateStore({ store: window.localStorage }),
             authority: "https://localhost:5001",
-            client_id: 'js',
+            client_id: 'vue',
+            client_secret: 'vue_secret',
+            offline_access: true,
             redirect_uri: 'http://localhost:8080/callback.html',
             automaticSilentRenew: true,
             silent_redirect_uri: 'http://localhost:8080/silent-renew.html',
