@@ -13,6 +13,7 @@ export default class SecurityService {
             client_secret: 'vue_secret',
             offline_access: true,
             redirect_uri: 'http://localhost:8080/callback.html',
+            popup_redirect_uri: 'http://localhost:8080/callback.html',
             automaticSilentRenew: true,
             silent_redirect_uri: 'http://localhost:8080/silent-renew.html',
             response_type: 'code',
@@ -29,7 +30,8 @@ export default class SecurityService {
     }
  
     login() {
-        return this.userManager.signinRedirect();
+        // return this.userManager.signinRedirect();
+        return this.userManager.signinPopup();
     }
  
     logout() {

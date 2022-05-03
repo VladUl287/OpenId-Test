@@ -46,6 +46,7 @@ namespace IdentityServerApp
                         $"{VUE_URI}/callback.html",
                         $"{VUE_URI}/silent-renew.html"
                     },
+
                     PostLogoutRedirectUris = 
                     {
                         VUE_URI
