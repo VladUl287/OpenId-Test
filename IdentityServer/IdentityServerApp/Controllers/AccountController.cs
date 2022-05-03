@@ -115,9 +115,9 @@ namespace IdentityServerApp.Controllers
             if (User.Identity?.IsAuthenticated is true)
             {
                 await HttpContext.SignOutAsync();
-            }
+}
 
-            return Redirect(logout.PostLogoutRedirectUri);
+            return Redirect(logout.PostLogoutRedirectUri ?? "http://localhost:8080");
         }
     }
 }

@@ -18,7 +18,8 @@ namespace IdentityServerApp
         public static IEnumerable<ApiScope> ApiScopes =>
             new List<ApiScope>
             {
-                new ApiScope("api1", "My API")
+                new ApiScope("api1", "My API"),
+                new ApiScope("offline_access")
             };
 
         public static IEnumerable<Client> Clients =>
@@ -37,7 +38,7 @@ namespace IdentityServerApp
 
                     AllowedGrantTypes = GrantTypes.Code,
 
-                    //AllowOfflineAccess = true,
+                    AllowOfflineAccess = true,
 
                     RedirectUris =
                     {
@@ -58,6 +59,7 @@ namespace IdentityServerApp
                     {
                         IdentityServerConstants.StandardScopes.OpenId,
                         IdentityServerConstants.StandardScopes.Profile,
+                        IdentityServerConstants.StandardScopes.OfflineAccess,
                         "api1"
                     }
                 }

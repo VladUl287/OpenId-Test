@@ -107,3 +107,4 @@ C:\Temp\asp.net - openId connect\IdentityServer\IdentityServerApp\obj\Debug\net6
 C:\Temp\asp.net - openId connect\IdentityServer\IdentityServerApp\obj\Debug\net6.0\ref\IdentityServerApp.dll
 C:\Temp\asp.net - openId connect\IdentityServer\IdentityServerApp\obj\Debug\net6.0\IdentityServerApp.pdb
 C:\Temp\asp.net - openId connect\IdentityServer\IdentityServerApp\obj\Debug\net6.0\IdentityServerApp.genruntimeconfig.cache
+C:\Temp\asp.net - openId connect\IdentityServer\IdentityServerApp\obj\Debug\net6.0\IdentityServerApp.csproj.AssemblyReference.cache
